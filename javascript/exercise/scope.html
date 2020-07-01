@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SCOPE</title>
+  <style type="text/css">
+    div{ width: 50px; height: 50px; }
+    .red{
+      position: absolute;
+      z-index: 5;
+      background: #FF4842;
+    }
+    .blue{
+      top: 10%;
+      position: absolute;
+      z-index: 4;
+      background: #0791e6;
+    }
+    .yellow{
+      top: 15%;
+      left: 10%;
+      position: absolute;
+      z-index: 6;
+      background: #d6d01d;
+    }
+  </style>
+</head>
+<body>
+  <a href="/exercise/">Go back</a>
+  <p><em>Abre la consola</em></p>
+  <div class="red"></div>
+  <div class="blue">
+    <div class="yellow"></div>
+  </div>
+  <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
+  <script type="text/javascript">
+    //Global Scope
+
+    var message="Hello, Miris";
+    var $ = function(message){
+      console.log("Say: "+message);
+    };
+    //Function Scope
+    function fnPrintNumber(){
+      var i;
+      for(i=0; i<10; i++){
+        function fnEventPrintNumber(n){
+          setTimeout(function(){
+            console.log(n);
+          },100);
+        }
+        fnEventPrintNumber(i);
+      }
+    }
+    fnPrintNumber();
+    //Block Scope
+    function fnPrintNumberB(){
+      for(let i=0; i<10; i++){
+          setTimeout(function(){
+            console.log('B: '+i);
+          },100);
+      }
+    }
+    fnPrintNumberB();
+    //Module Scope
+  </script>
+</body>
+</html>
