@@ -10,7 +10,15 @@ body{
   border: 1px solid #DEDEDE;
   margin: 0 auto;
 }
-
+#cabecera{
+  font-weight: bold;
+  font-size: 30pt;
+  color: blueviolet;
+}
+#spTitle{ 
+  font-weight: normal;
+  font-size: 20pt;;
+}
 #container h3{
   font-size: 15pt;
 }
