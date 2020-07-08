@@ -14,3 +14,8 @@ body{
 #container h3{
   font-size: 15pt;
 }
+
+#container p{
+  color: #273b47;
+  font-family: 'Courier New', Courier, monospace;
+}
