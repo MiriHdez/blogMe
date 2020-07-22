@@ -17,6 +17,13 @@ body{
   display: grid;
   grid-template-columns: 100px 1fr;
 }
+#cabecera div img{
+  width: 100%;
+  max-width: 173px;
+}
+#cabecera div:last-child{
+  text-align: right;
+}
 #spTitle{ 
   font-weight: normal;
   font-size: 20pt;;
