@@ -7,4 +7,4 @@ En este curso veo:
 - Los comandos de Git.
 - El flujo de trabajo en Github.
 
-**P.D. ¡Conquistar al mudo!**
+**P.D. ¡Conquistar al mundo!**
