@@ -8,6 +8,7 @@ En este curso veo:
 - El flujo de trabajo en Github.
 - Realizado por MHP
 - Se muestra en las diferentes plataformas (Windows, Linux, Mac).
+- Conexión remota a repositorios.
 
 
 **P.D. ¡Conquistar al mundo!**
