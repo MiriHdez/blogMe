@@ -6,6 +6,6 @@ Repositorio para practicar en curso
 En este curso veo:
 - Los comandos de Git.
 - El flujo de trabajo en Github.
-- Relizado por MHP
-
+- Realizado por MHP
+- 
 **P.D. ¡Conquistar al mundo!**
